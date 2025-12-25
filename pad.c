@@ -13,7 +13,7 @@ const size_t BUFFER_SIZE = 1024 * 1024;
 
 int main(int argc, const char **argv) {
     if (argc < 2) {
-        printf("usage: %s [padding amount]", argv[0]);
+        printf("usage: %s [padding amount]\n", argv[0]);
         exit(EXIT_FAILURE);
     }
 
